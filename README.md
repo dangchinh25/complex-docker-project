@@ -5,7 +5,7 @@ TODO:
 - Read and understand docker-compose file
 
 Architecture:
-![Alt text](https://drive.google.com/file/d/1oLjrdOtbABqcTLyIYNhA3Spuj7Pu_4Ka/view?usp=sharing)
+![Alt text](misc/Untitled Diagram.jpg "Architecture")
 
 WS Configuration Cheet Sheet
 
