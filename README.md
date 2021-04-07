@@ -5,7 +5,7 @@ TODO:
 - Read and understand docker-compose file
 
 Architecture:
-![Alt text](misc/Untitled Diagram.jpg "Architecture")
+![Settings Window](https://raw.github.com/dangchinh25/complex-docker-project/blob/master/misc/Untitled%20Diagram.jpg)
 
 WS Configuration Cheet Sheet
 
