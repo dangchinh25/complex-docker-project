@@ -6,4 +6,4 @@ TODO:
 
 Architecture:
 
-<img src="misc/Architecture.jpg" width="800">
+<img src="misc/Architecture.jpg" width="700">
