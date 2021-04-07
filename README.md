@@ -5,4 +5,5 @@ TODO:
 - Read and understand docker-compose file
 
 Architecture:
-<img src="misc/Architecture.jpg" width="600">
+
+<img src="misc/Architecture.jpg" width="800">
