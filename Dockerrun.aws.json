@@ -25,6 +25,7 @@
         {
             "name": "nginx",
             "image": "chinhle2501/multi-nginx",
+            "hostname": "nginx",
             "essential": true,
             "portMappings": [
                 {
