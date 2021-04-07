@@ -6,7 +6,7 @@ before_install:
   - docker build -t chinhle2501/react-test -f ./client/Dockerfile.dev ./client
 
 script:
-  - docker run chinhle2501/react-test npm run test
+  - docker run chinhle2501/react-test npm test
 
 after_success:
   - docker build -t chinhle2501/multi-client ./client
