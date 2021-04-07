@@ -4,6 +4,9 @@ TODO:
 - Read and understand how AWS handle multi container deployment (AWS Task Definition & Dockerrun.aws.json file)
 - Read and understand docker-compose file
 
+Architecture:
+![Alt text](https://drive.google.com/file/d/1oLjrdOtbABqcTLyIYNhA3Spuj7Pu_4Ka/view?usp=sharing)
+
 WS Configuration Cheet Sheet
 
 EBS Application Creation
