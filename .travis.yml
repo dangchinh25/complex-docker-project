@@ -1,0 +1,22 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t chinhle2501/react-test -f ./client/Docekrfile.dev ./client
+
+script:
+  - docker run chinhle2501/react-test npm run test -- --cov
+
+after_success:
+  - docker build -t chinhle2501/multi-client ./client
+  - docker build -t chinhle2501/multi-nginx ./nginx
+  - docker build -t chinhle2501/multi-server ./server
+  - docker build -t chinhle2501/multi-worker ./worker
+  # Log in to Docker CLI
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  # Push the built images to Docker Hub
+  - docker push chinhle2501/multi-client
+  - docker push chinhle2501/multi-nginx
+  - docker push chinhle2501/multi-server
+  - docker push chinhle2501/multi-worker
