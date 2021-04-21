@@ -1,6 +1,7 @@
 ### TODO:
 - Read and understand travis config
 - Read and understand docker-compose file
+- Read K8s docs (especially concept part) and K8s in action
 
 
 #### AWS Elastic Beanstalk Multiplecontainer Docker
