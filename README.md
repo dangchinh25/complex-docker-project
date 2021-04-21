@@ -29,7 +29,7 @@
 
 #### Service
 - This ```Kind``` of ```Object``` is to set up networking inside a ```k8s``` cluster
-- This will link to the ```Pod``` by a ```label``` system, as long as it has same ```label``, it will be linked and controlled
+- This will link to the ```Pod``` by a ```label``` system, as long as it has same ```label```, it will be linked and controlled
 
 
 ### Architecture:
